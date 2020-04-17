@@ -14,7 +14,11 @@ const Avatar = ({
                 alt={title}
                 {...rest}
             /> :
-            <img src="../../../images/devtohr-icon-square.png" alt="devtohr user default " />
+            <img
+                className="avatar-default"
+                src="../../../images/devtohr-icon-square.png"
+                alt="devtohr user default "
+            />
     )
 
 

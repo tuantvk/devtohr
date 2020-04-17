@@ -297,3 +297,10 @@ input[type="checkbox"], input[type="radio"] {
     transition: opacity .1s ease,color .1s ease,background .1s ease,box-shadow .1s ease,-webkit-box-shadow .1s ease;
     border-radius: .28571429rem;
 }
+.avatar-default {
+    overflow: hidden;
+    display: inline-block;
+    width: 128px;
+    height: 128px;
+    border-radius: 6px;
+}
